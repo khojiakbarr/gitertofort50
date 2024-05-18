@@ -18,7 +18,7 @@ FormControl.forEach((form) => {
     const [isim, nomer] = e.target;
     console.dir(isim.value);
     console.dir(nomer.value);
-    let message = `<b>GIPERTO FORT</b>\n`;
+    let message = `<b>GIPERTO FORT 50%</b>\n`;
     message += `<b>ism:</b>${isim.value}\n`;
     message += `<b>nomer:</b>${nomer.value}`;
 
