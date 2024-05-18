@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giperto Fort</title>
+    <link rel="icon" type="image/x-icon" href="./image/jp_giperto.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {},
+          screens: {
+            "2xl": { max: "1535px" },
+            // => @media (max-width: 1535px) { ... }
+
+            xl: { max: "1279px" },
+            // => @media (max-width: 1279px) { ... }
+
+            lg: { max: "1023px" },
+            // => @media (max-width: 1023px) { ... }
+
+            md: { max: "767px" },
+            // => @media (max-width: 767px) { ... }
+
+            sm: { max: "440px" },
+            // => @media (max-width: 639px) { ... }
+          },
+        },
+      };
+    </script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2
+        style="--i: 64px; --l: 900"
+        class="text-title text-center bg-[#c7c7c7] text-white p-[20px] rounded-b-[50px]"
+      >
+        <span class="text-[#F90000]">ЮРАКНИ СОҒЛОМЛАШТИРАДИ </span> <br />ҚОН
+        ТОМИРЛАРИНИ ТОЗАЛАЙДИ
+      </h2>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <div
+            class="wrapper flex items-center justify-center md:mt-[20px] mt-[40px] md:gap-[20px] gap-[40px]"
+          >
+            <div class="border-image md:w-[200px] max-w-[400px]">
+              <img class="" src="./image/jp_giperto.png" alt="dori" />
+            </div>
+            <!--?Form ----------------------------------------------------------------------------------------------  -->
+            <form
+              class="FormControl flex flex-col items-center justify-center bg-[#EEE] rounded-[15px] p-[10px] md:w-[200px]"
+            >
+              <h3
+                style="--i: 40px; --l: 600"
+                class="text-title-mid text-items text-center"
+              >
+                Faqat Bugun <br />
+                <span class="text-red-500 text-[30px] font-[800]"
+                  >50% chegirma</span
+                >
+                <br />
+                <span class="text-green-500 font-[800]">33.000 UZS</span>
+              </h3>
+              <div class="flex gap-[2px] items-center">
+                <p class="soat md:text-[15px] bg-gray-700 p-2 text-white"></p>
+                :
+                <p class="minut md:text-[15px] bg-gray-700 p-2 text-white"></p>
+                :
+                <p class="sekunt md:text-[15px] bg-gray-700 p-2 text-white"></p>
+              </div>
+              <input
+                type="text"
+                class="md:w-[120px] p-[3px] rounded mt-[10px] text-[20px] outline-none"
+                placeholder="Ism"
+                required
+              />
+              <input
+                type="tel"
+                class="telefon md:w-[120px] p-[3px] rounded mt-[10px] text-[20px] outline-none"
+                placeholder="Telefon"
+                required
+              />
+              <button
+                class="mt-[10px] text-center font-[600] md:w-[120px] w-full transition-all duration-150 p-[5px] bg-[#f9000083] active:bg-[#F90000] text-white rounded-[10px]"
+              >
+                Qabul qilish uchun
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div
+            class="wrapper-info flex flex-wrap items-center md:justify-between justify-center gap-[60px] md:gap-[10px] mt-[40px]"
+          >
+            <div
+              class="card-list bg-[#C7C7C7] flex items-center md:w-[200px] h-[184px] md:h-[77px] w-[500px] md:gap-[10px] gap-[15px] md:p-[10px] p-[20px] sm:w-full"
+            >
+              <img
+                class="md:w-[40px] w-[90px]"
+                src="./image/icon_1.png"
+                alt="icon"
+              />
+              <p style="--i: 32px; --l: 400" class="text-info text-white">
+                Қон томирларини тозалайди
+              </p>
+            </div>
+            <div
+              class="card-list bg-[#C7C7C7] flex items-center md:w-[200px] h-[184px] md:h-[77px] w-[500px] md:gap-[10px] gap-[15px] md:p-[10px] p-[20px] sm:w-full"
+            >
+              <img
+                class="md:w-[40px] w-[90px]"
+                src="./image/icon_2.png"
+                alt="icon"
+              />
+              <p style="--i: 32px; --l: 400" class="text-info text-white">
+                мутлақо хавфсиз биологик фаол қўшимча
+              </p>
+            </div>
+            <div
+              class="card-list bg-[#C7C7C7] flex items-center md:w-[200px] h-[184px] md:h-[77px] w-[500px] md:gap-[10px] gap-[15px] md:p-[10px] p-[20px] sm:w-full"
+            >
+              <img
+                class="md:w-[40px] w-[90px]"
+                src="./image/icon_3.png"
+                alt="icon"
+              />
+              <p style="--i: 32px; --l: 400" class="text-info text-white">
+                қон босимини барқарорлаштиришга ёрдам беради
+              </p>
+            </div>
+            <div
+              class="card-list bg-[#C7C7C7] flex items-center md:w-[200px] h-[184px] md:h-[77px] w-[500px] md:gap-[10px] gap-[15px] md:p-[10px] p-[20px] sm:w-full"
+            >
+              <img
+                class="md:w-[40px] w-[90px]"
+                src="./image/icon_4.png"
+                alt="icon"
+              />
+              <p style="--i: 32px; --l: 400" class="text-info text-white">
+                кучли терапевтик таъсирга ега
+              </p>
+            </div>
+            <div
+              class="card-list bg-[#C7C7C7] flex items-center md:w-[200px] h-[184px] md:h-[77px] w-[500px] md:gap-[10px] gap-[15px] md:p-[10px] p-[20px] sm:w-full"
+            >
+              <img
+                class="md:w-[40px] w-[90px]"
+                src="./image/icon_5.png"
+                alt="icon"
+              />
+              <p style="--i: 32px; --l: 400" class="text-info text-white">
+                юрак ҳуружидан ҳимоя
+              </p>
+            </div>
+            <div
+              class="card-list bg-[#C7C7C7] flex items-center md:w-[200px] h-[184px] md:h-[77px] w-[500px] md:gap-[10px] gap-[15px] md:p-[10px] p-[20px] sm:w-full"
+            >
+              <img
+                class="md:w-[40px] w-[90px]"
+                src="./image/icon_6.png"
+                alt="icon"
+              />
+              <p style="--i: 32px; --l: 400" class="text-info text-white">
+                юрак етишмовчилигида ёрдам беради
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h3
+          style="--i: 60px; --l: 900"
+          class="text-title text-center md:mt-[50px] mt-[200px] bg-[#C7C7C7] p-[20px]md:rounded-[50px] rounded-[100px]"
+        >
+          ЮРАК-ҚОН ТОМИР КАСАЛЛИКЛАРИ БУТУН ДУНЁ БЎЙЛАБ ЎЛИМНИНГ АСОСИЙ
+          САБАБЛАРИДАН БИРИДИР!
+        </h3>
+        <div class="container">
+          <h4
+            style="--i: 40px; --l: 900"
+            class="text-title-mid text-center md:mt-[30px] mt-[50px]"
+          >
+            ГИПЕРТЕНЗИЯ НОГИРОНЛИККА ОЛИБ КЕЛАДИ ВА МУДДАТИДАН ОЛДИН ЎЛИМ.<span
+              class="text-[#F90000]"
+            >
+              ЎЛИМ. 97% ГИПЕРТЕНЗИЯ
+            </span>
+            НОГИРОНЛАР ҲАЁТ УЧУН ВА
+            <spans class="text-[#F90000]">ЕРТА ЎЛИМГА</spans> ОЛИБ КЕЛАДИ. ЎЛИМ.
+          </h4>
+          <p
+            style="--i: 36px; --l: 700"
+            class="text-info text-center mt-[40px]"
+          >
+            Гипертония, атеросклероз ва бошқа қон томир муаммолари ҳаёт сифатини
+            жиддий пасайтириши ва ҳатто юрак хуружи ёки инсултга олиб келиши ҳам
+            мумкин. Келажакда пайдо бўлиши мумкин бўлган жиддий асоратларнинг
+            олдини олиш учун соғлиғингизга эътиборлироқ бўлиш ва томирларингизга
+            ғамхўрлик қилишингизлозим.
+          </p>
+        </div>
+      </section>
+
+      <section
+        class="charchagan md:mt-[50px] mt-[100px] md:mb-[30px] mb-[70px]"
+      >
+        <div class="container text-white text-center">
+          <h3
+            style="--i: 48px; --l: 900"
+            class="text-title-mid py-[160px] md:py-[40px]"
+          >
+            97% ҲОЛЛАРДА ГИПЕРТЕНЗИЯ - ИНСУЛТ ВА ЮРАК ХУРУЖЛАРИГА САБАБ БЎЛАДИ
+          </h3>
+          <p
+            style="--i: 48px; --l: 400"
+            class="text-info pb-[170px] md:pb-[50px]"
+          >
+            атеросклероз ривожланиш хавфини оширади, бу еса юрак хуружлари ва
+            қон томирларининг пайдо бўлиши. Асосий сабаб - таркибнинг юқори
+            даражаси. қон холестерини
+          </p>
+        </div>
+      </section>
+      <div
+        class="h-[126px] md:h-[40px] bg-[#F90000] mb-[70px] md:mb-[40px]"
+      ></div>
+
+      <section
+        class="charchagan_2 md:mt-[50px] mt-[100px] md:mb-[30px] mb-[70px]"
+      >
+        <div class="container text-white text-center">
+          <h3
+            style="--i: 48px; --l: 900"
+            class="text-title-mid py-[160px] md:py-[40px]"
+          >
+            ТЕЗДА ҲАР УЧИНЧИ НОГИРОННИ РИВОЖЛАНТИРАДИ ВА ҚИЛАДИ
+          </h3>
+          <p
+            style="--i: 48px; --l: 400"
+            class="text-info pb-[170px] md:pb-[50px]"
+          >
+            Одам иш қобилиятини йўқотади ёки уйда ишлайди ёки махсус
+            шароитларда. Кейин янги асоратлар пайдо бўлади. Улардан баъзилари
+            қўзғашади бошқалар ва касаллик ўлимга олиб келади.
+          </p>
+        </div>
+      </section>
+      <div
+        class="h-[126px] md:h-[40px] bg-[#F90000] mb-[70px] md:mb-[40px]"
+      ></div>
+      <section
+        class="charchagan_3 md:mt-[50px] mt-[100px] md:mb-[30px] mb-[70px]"
+      >
+        <div class="container text-white text-center">
+          <h3
+            style="--i: 48px; --l: 900"
+            class="text-title-mid py-[160px] md:py-[40px]"
+          >
+            40га Кирмасдан ерта қариш ва кучдан қолиш
+          </h3>
+          <p
+            style="--i: 48px; --l: 400"
+            class="text-info pb-[170px] md:pb-[50px]"
+          >
+            Барча ички органлар ва тизимларнинг иши қон айланиши сифатига
+            боғлиқ. Агарда қон ифлосланса  барча органлар ва тизимлар азият
+            чекади, уларнинг барчаси эса инсонни ташкил қилади. Ҳатто тери ҳам
+            маълум бир тизимдир ва Бу инсони тез қаришига олиб келади
+          </p>
+        </div>
+      </section>
+
+      <section>
+        <h3
+          style="--i: 60px; --l: 900"
+          class="text-title text-center md:mt-[50px] mt-[200px] bg-[#C7C7C7] p-[20px] md:rounded-[50px] rounded-[100px]"
+        >
+          ЮРАК-ҚОН ТОМИР КАСАЛЛИКЛАРИ БУТУН ДУНЁ БЎЙЛАБ ЎЛИМНИНГ АСОСИЙ
+          САБАБЛАРИДАН БИРИДИР!
+        </h3>
+        <div class="container">
+          <div
+            class="wrapper flex items-center justify-center flex-wrap gap-[40px] md:gap-[20px] mt-[120px] md:mt-[60px]"
+          >
+            <div
+              style="
+                background-image: url(./image/jp_sqilgan.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+              "
+              class="card-image rounde-[70px] flex items-center justify-center text-center md:w-[170px] md:h-[170px] w-[560px] h-[500px]"
+            >
+              <p style="--i: 48px; --l: 900" class="text-title-mid text-white">
+                Бошлиқ оғриқ
+              </p>
+            </div>
+
+            <div
+              style="
+                background-image: url(./image/jp_oyoq.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+              "
+              class="card-image rounde-[70px] flex items-center justify-center text-center md:w-[170px] md:h-[170px] w-[560px] h-[500px]"
+            >
+              <p style="--i: 48px; --l: 900" class="text-title-mid text-white">
+                Оёқ-қоларнинг музлаб, Жимирлаши
+              </p>
+            </div>
+
+            <div
+              style="
+                background-image: url(./image/jp_kampir.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+              "
+              class="card-image rounde-[70px] flex items-center justify-center text-center md:w-[170px] md:h-[170px] w-[560px] h-[500px]"
+            >
+              <p style="--i: 48px; --l: 900" class="text-title-mid text-white">
+                Шишиш Eрталаб
+              </p>
+            </div>
+
+            <div
+              style="
+                background-image: url(./image/jp_yure.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+              "
+              class="card-image rounde-[70px] flex items-center justify-center text-center md:w-[170px] md:h-[170px] w-[560px] h-[500px]"
+            >
+              <p style="--i: 48px; --l: 900" class="text-title-mid text-white">
+                Тез юрак уриши – Халоват ёқолиши
+              </p>
+            </div>
+
+            <div
+              style="
+                background-image: url(./image/jp_bosh.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+              "
+              class="card-image rounde-[70px] flex items-center justify-center text-center md:w-[170px] md:h-[170px] w-[560px] h-[500px]"
+            >
+              <p style="--i: 48px; --l: 900" class="text-title-mid text-white">
+                Чарчоқ ва уйқучанлик
+              </p>
+            </div>
+
+            <div
+              style="
+                background-image: url(./image/jp_davlena.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+              "
+              class="card-image rounde-[70px] flex items-center justify-center text-center md:w-[170px] md:h-[170px] w-[560px] h-[500px]"
+            >
+              <p style="--i: 48px; --l: 900" class="text-title-mid text-white">
+                Доимий қон босими ойнаши от пойгаси
+              </p>
+            </div>
+
+            <div
+              style="
+                background-image: url(./image/qoltu.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: contain;
+              "
+              class="card-image rounde-[70px] flex items-center justify-center text-center md:w-[170px] md:h-[170px] w-[560px] h-[500px]"
+            >
+              <p style="--i: 48px; --l: 900" class="text-title-mid text-white">
+                Терлаш
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container flex-col items-center justify-center">
+          <h3
+            style="--i: 48px; --l: 900"
+            class="text-title mt-[72px] md:mt-[30px] text-center"
+          >
+            УШБУ АЛОМАТЛАРНИ ТОПДИНГИЗМИ? ГИПЕРТЕНЗИЯНИ ДАВОЛАНГ ДАРҲОЛ СИЗНИ
+            САБЗАВОТГА АЙЛАНТИРМАГУНЧА!
+          </h3>
+          <!--? Form--------------------------------------------------------------------------------------------------------------------->
+          <div class="form-control flex justify-center">
+            <form
+              class="FormControl flex flex-col items-center justify-center bg-[#EEE] rounded-[15px] p-[10px] md:w-[200px] md:mt-[20px] mt-[50px]"
+            >
+              <h3
+                style="--i: 40px; --l: 600"
+                class="text-title-mid text-items text-center"
+              >
+                Faqat Bugun <br />
+                <span class="text-red-500 text-[30px] font-[800]"
+                  >50% chegirma</span
+                >
+                <br />
+                <span class="text-green-500 font-[800]">33.000 UZS</span>
+              </h3>
+              <div class="flex gap-[2px] items-center">
+                <p class="soat md:text-[15px] bg-gray-700 p-2 text-white"></p>
+                :
+                <p class="minut md:text-[15px] bg-gray-700 p-2 text-white"></p>
+                :
+                <p class="sekunt md:text-[15px] bg-gray-700 p-2 text-white"></p>
+              </div>
+              <input
+                type="text"
+                class="md:w-[120px] p-[3px] rounded mt-[10px] text-[20px] outline-none"
+                placeholder="Ism"
+                required
+              />
+              <input
+                type="tel"
+                class="telefon md:w-[120px] p-[3px] rounded mt-[10px] text-[20px] outline-none"
+                placeholder="Telefon"
+                required
+              />
+              <button
+                class="mt-[10px] text-center font-[600] md:w-[120px] w-full transition-all duration-150 p-[5px] bg-[#f9000083] active:bg-[#F90000] text-white rounded-[10px]"
+              >
+                Qabul qilish uchun
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div
+            class="flex justify-between mt-[50px] bg-[#C7C7C7] md:p-[20px] p-[40px] md:rounded-[50px] rounded-[100px]"
+          >
+            <img class="md:w-[200px]" src="./image/lupachi.png" alt="lupachi" />
+            <p style="--i: 40px; --l: 900" class="text-title ml-[-40px]">
+              ГИПЕРТО - ФОРТЕ САМАРАДОРЛИГИ КЛИНИК ТОМОНИДАН ТАСДИҚЛАНГАН
+              СИНОВЛАР. УШБУ ВОСИТА 70 000 КЎНГИЛЛИГА ЁРДАМ БЕРДИ
+            </p>
+          </div>
+        </div>
+        <p
+          style="--i: 32px; --l: 900"
+          class="text-title-mid text-center mt-[20px] capitalize"
+        >
+          Жаҳонюрак-қонтомир ташкилоти 12 ой давомидакасалликларбир қаторклиник
+          синовларниўтказди. Уч гуруҳкўнгиллилар 365 кундавомидаклиник
+          синовлардаиштирокетишди.
+        </p>
+      </section>
+      <section>
+        <div class="container flex justify-between mt-[50px]">
+          <div
+            class="cardInfo w-[300px] md:h-[241px] md:w-[120px] flex flex-col items-center justify-between gap-[10px]"
+          >
+            <h4 style="--i: 36px; --l: 900" class="text-info text-center">
+              ТИББИЙ ПРЕПАРАТЛАР
+            </h4>
+            <img
+              class="w-[240px] md:w-[120px]"
+              src="./image/jp_dori.png"
+              alt="dori"
+            />
+            <img src="./image/info_1.png" alt="" />
+          </div>
+
+          <div
+            class="cardInfo w-[300px] md:h-[241px] md:w-[120px] flex flex-col items-center justify-between"
+          >
+            <h4 style="--i: 36px; --l: 900" class="text-info text-center">
+              ТИББИЙ ПРЕПАРАТЛАР
+            </h4>
+            <img
+              class="w-[240px] md:w-[120px]"
+              src="./image/jp_ot.png"
+              alt="dori"
+            />
+            <img src="./image/info_2.png" alt="" />
+          </div>
+
+          <div
+            class="cardInfo w-[300px] md:h-[241px] md:w-[120px] flex flex-col items-center justify-between"
+          >
+            <h4 style="--i: 36px; --l: 900" class="text-info text-center">
+              ТИББИЙ ПРЕПАРАТЛАР
+            </h4>
+            <img
+              class="w-[240px] md:w-[120px]"
+              src="./image/jp_giperto.png"
+              alt="dori"
+            />
+            <img src="./image/info_3.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="mt-[133px] md:mt-[70px]">
+        <img class="w-full" src="./image/bg_static.png" alt="static" />
+        <div class="container mt-[50px] grid grid-cols-2 gap-[10px]">
+          <div
+            class="info flex items-center gap-[30px] md:gap-[10px] md:w-[180px]"
+          >
+            <span
+              class="w-[90px] h-[90px] md:h-[30px] md:w-[40px] bg-[#FE9900]"
+            ></span>
+            <p style="--i: 25px; --l: 900" class="text-info md:w-[150px]">
+              Нормаллаш босим
+            </p>
+          </div>
+
+          <div
+            class="info flex items-center gap-[30px] md:gap-[10px] md:w-[180px]"
+          >
+            <span
+              class="w-[90px] h-[90px] md:h-[30px] md:w-[40px] bg-[#60CA3D]"
+            ></span>
+            <p style="--i: 25px; --l: 900" class="text-info md:w-[150px]">
+              Йўқ қилиш тромбоз
+            </p>
+          </div>
+
+          <div
+            class="info flex items-center gap-[30px] md:gap-[10px] md:w-[180px]"
+          >
+            <span
+              class="w-[90px] h-[90px] md:h-[30px] md:w-[40px] bg-[#FF1212]"
+            ></span>
+            <p style="--i: 25px; --l: 900" class="text-info md:w-[150px]">
+              Мавжудлиги ён таъсири
+            </p>
+          </div>
+
+          <div
+            class="info flex items-center gap-[30px] md:gap-[10px] md:w-[180px]"
+          >
+            <span
+              class="w-[90px] h-[90px] md:h-[30px] md:w-[40px] bg-[#640B02]"
+            ></span>
+            <p style="--i: 25px; --l: 900" class="text-info md:w-[150px]">
+              Рад етиш даражаси холест
+            </p>
+          </div>
+
+          <div
+            class="info flex items-center gap-[30px] md:gap-[10px] md:w-[180px]"
+          >
+            <span
+              class="w-[90px] h-[90px] md:h-[30px] md:w-[40px] bg-[#9CBCCB]"
+            ></span>
+            <p style="--i: 25px; --l: 900" class="text-info md:w-[150px]">
+              Йўқ қилиш юрак уриши
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="bg-[#C7C7C7] rounded-[100px] md:py-[30px] py-[50px] md:mt-[50px] mt-[115px]"
+      >
+        <div class="container flex justify-between md:flex-col items-center">
+          <p
+            style="--i: 36px; --l: 900"
+            class="text-title-mid md:text-center capitalize md:w-[300px] w-[500px]"
+          >
+            ГИПЕРТОФОРТ мутлақо хавфсиз, ножўя таъсирларга ега емас ва тиббий
+            назоратисиз олиниши мумкин.
+          </p>
+          <img
+            class="md:w-[200px] mt-[20px]"
+            src="./image/jp_giperto.png"
+            alt=""
+          />
+          <img class="md:w-[200px] w-[300px]" src="./image/jp_doc.jpg" alt="" />
+        </div>
+      </section>
+
+      <section>
+        <div class="container md:mt-[50px] mt-[115px]">
+          <p style="--i: 36px; --l: 900" class="text-info text-center">
+            ГИПЕРТОФОРТ - бу "ноу-хау", олимларнинг ғурури. Холестерин
+            плакаларига кириб, уларни ичкаридан еритиб юборадиган
+            екстрактларнинг фаол CО2 фракциялари туфайли қон томирларини деярли
+            100% тозалашни таъминлайди.
+            <br />
+            <br />
+
+            ГИПЕРТОФОРТ қон томирларини тозалаш орқали миянинг нормал
+            овқатланишини тиклайди. Тананинг тикланишининг занжирли реакцияси
+            бошланади.
+          </p>
+        </div>
+      </section>
+      <section>
+        <h3
+          style="--i: 60px; --l: 900"
+          class="text-title text-center md:mt-[50px] mt-[200px] bg-[#C7C7C7] p-[20px] md:rounded-[50px] rounded-[100px]"
+        >
+          ГИПЕРТОФОРТ - дан фойдаланиш натижалари:
+        </h3>
+
+        <div
+          class="container wrapper-card flex justify-between items-center md:justify-center md:flex-wrap"
+        >
+          <div class="card-list w-[560px]">
+            <h5
+              style="--i: 30px; --l: 900"
+              class="text-info mt-[15px] text-center"
+            >
+              ГИПЕРТОФОРТ қабулқилган 1,5 ой давомидақонайланиши 99,71%
+              гатикланади
+            </h5>
+            <img src="./image/jp_miya.png" alt="miya" />
+          </div>
+          <div class="card-list flex flex-col items-center">
+            <h5
+              style="--i: 30px; --l: 900"
+              class="text-info mt-[15px] text-center md:mb-[4px] mb-[50px]"
+            >
+              ГИПЕРТОФОРТ қабулқилган 1,5 ой давомидақонайланиши 99,71%
+              гатикланади
+            </h5>
+            <img src="./image/jp_tomr.png" alt="miya" />
+          </div>
+        </div>
+
+        <div class="container">
+          <h3
+            style="--i: 40px; --l: 900"
+            class="text-title md:mt-[40px] mt-[50px]"
+          >
+            ГИПЕРТОФОРТ-томир девори тузилмалари ҳужқонайраларининг табиий томир
+            кенгайиши ва томир торайиши омиллари мувозанатини тиклашга ёрдам
+            беради, шунингдек қуйидаги аломатларнинг олдини олади:
+          </h3>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <ul class="pl-[20px] mt-[24px]">
+            <li class="text--[24px] font-[500] list-disc">
+              Бош ваюрактомирларининг тортишиши;
+            </li>
+            <li class="text--[24px] font-[500] list-disc">
+              Қон босими кўтарилиши;
+            </li>
+            <li class="text--[24px] font-[500] list-disc">
+              Мия томирлари деворларининг ўтказувчанлигини нормаллаштиради;
+            </li>
+            <li class="text--[24px] font-[500] list-disc">
+              Юрак ва мия томирларида атеросклеротик ўзгаришлар ҳақида
+              огохлантиради;
+            </li>
+            <li class="text--[24px] font-[500] list-disc">
+              Юрак ва мия тўқималарининг гипокцияси;
+            </li>
+            <li>
+              Кўз бўшлиғида томир тортишиши фонида кўриш қобилиятининг пасайиши;
+            </li>
+            <li class="text--[24px] font-[500] list-disc">
+              Нерв импульслари, хотира ва ақлий қобилиятларнинг фаолиятини
+              нормаллаштиради;
+            </li>
+            <li class="text--[24px] font-[500] list-disc">
+              Дастлабки симптомларни йўқ қилади (бош айланиши, бош оғриғи,
+              беҳузурлик хуружи, заифлик, бошдаги шовқин, иш қобилияти ва
+              хотиранинг пасайиши, кўнгил айниши);
+            </li>
+            <li class="text--[24px] font-[500] list-disc">
+              Овқат ҳазм қилиш тизимининг мотор ва дренаж функцияларининг
+              бузилиши;
+            </li>
+            <li class="text--[24px] font-[500] list-disc">
+              Оқсиллар, ёғлар, углеводлар алмашинуви жараёнларининг бузилиши;
+            </li>
+            <li class="text--[24px] font-[500] list-disc">
+              Қоннинг таркиби ва реологиясини тартибга солади;
+            </li>
+            <li class="text--[24px] font-[500] list-disc">
+              Уйқу бузилишининг ва ухлаб қолиш мелонизмини тўғрилайди;
+            </li>
+            <li class="text--[24px] font-[500] list-disc">
+              Вегето-томирли ўзгаришлар;
+            </li>
+            <li class="text--[24px] font-[500] list-disc">
+              Ёш билан боғлиқ хотира ва нутқ бузилишлари ва Альцсгеймер ҳамда
+              Паркинсон белгилари;
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section>
+        <h3
+          style="--i: 60px; --l: 900"
+          class="text-title text-center md:mt-[50px] mt-[200px] bg-[#C7C7C7] p-[20px] md:rounded-[50px] rounded-[100px]"
+        >
+          БИОГЕН КОНЦЕНТРАТИНИНГ АСОСИЙ КОМПОНЕНТЛАРИ
+        </h3>
+        <div class="container flex gap-[5px] justify-between mt-[40px]">
+          <div
+            class="card-text sm:w-[140px] md:h-[230px] flex flex-col justify-between"
+          >
+            <h4
+              style="--i: 30px; --l: 500"
+              class="text-info text-center w-[400px] md:w-[180px] sm:w-[140px]"
+            >
+              <span class="font-extrabold">GINKGO BILOBA </span>
+              <br />Қон томирларининг қаршилигини камайтиришга ва умумий қон
+              оқимини оширишга ёрдам беради
+            </h4>
+            <div class="md:w-[180px] sm:w-[140px]">
+              <img class="w-[100%]" src="./image/jp_image1.png" alt="image" />
+            </div>
+          </div>
+          <div
+            class="card-text sm:w-[140px] md:h-[230px] flex flex-col justify-between"
+          >
+            <h4
+              style="--i: 30px; --l: 500"
+              class="text-info text-center w-[400px] md:w-[180px] sm:w-[140px]"
+            >
+              <span class="font-extrabold">VALERIAN OFFICINALIS</span>
+              <br />
+              Қўллаб-қувватлайди нормал алмашиш моддалар, асаб тизимини
+              нормализация қилади
+            </h4>
+            <div class="md:w-[180px] sm:w-[140px]">
+              <img class="w-[100%]" src="./image/jp_image2.png" alt="image" />
+            </div>
+          </div>
+        </div>
+
+        <div class="main-image flex justify-center md:my-[30px]">
+          <img class="md:w-[200px]" src="./image/jp_yurak.png" alt="yurak" />
+        </div>
+
+        <div class="container flex gap-[5px] justify-between mt-[40px]">
+          <div
+            class="card-text sm:w-[140px] md:h-[250px] flex flex-col justify-between"
+          >
+            <h4
+              style="--i: 30px; --l: 500"
+              class="text-info text-center w-[400px] md:w-[180px] sm:w-[140px]"
+            >
+              <span class="font-extrabold uppercase">Дўлана мевалари</span>
+              <br />
+              Қонингизнинв янада самарали циркуляцияси учун қон томирлари
+              кенгайишига ва қон босимини пасайтиришга ёрдам беради
+            </h4>
+            <div class="md:w-[180px] sm:w-[140px]">
+              <img class="w-[100%]" src="./image/jp_image3.png" alt="image" />
+            </div>
+          </div>
+          <div
+            class="card-text sm:w-[140px] md:h-[250px] flex flex-col justify-between"
+          >
+            <h4
+              style="--i: 30px; --l: 500"
+              class="text-info text-center w-[400px] md:w-[180px] sm:w-[140px]"
+            >
+              <span class="font-extrabold"> ELECAMPANE BALAND</span>
+              <br />
+              Токсинларни йўқ қилади, қон оқимини яхшилайди Қонни тозалашга
+              ёрдам беради
+            </h4>
+            <div class="md:w-[180px] sm:w-[140px]">
+              <img class="w-[100%]" src="./image/jp_image4.png" alt="image" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="my-[40px]">
+        <img class="w-full" src="./image/jp_amaki.png" alt="amaki" />
+        <img class="w-full" src="./image/jp_info.png" alt="info" />
+      </section>
+
+      <section>
+        <a href="https://gipertoforte.vercel.app/" target="_blank">
+          <h4
+            style="--i: 40px; --l: 500"
+            class="text-title cursor-pointer text-center bg-[#C7C7C7] py-[20px] rounded-[100px] px-[20px] transition-all duration-150 active:scale-95"
+          >
+            МАШҲУР АМЕРИКАЛИК КАРДИОЛОГ СУҲБАТИНИ ТЎЛИҚ ТОМОША ҚИЛИНГ
+          </h4>
+        </a>
+
+        <div class="container">
+          <p style="--i: 35px; --l: 500" class="text-info font-[500] my-[30px]">
+            15 000 000 $ ва 8 йил сарфландитаркибийқисмларнитадқиқ
+            қилиш Сенсацион ривожланиш олимлар. Профилактик тикловчи
+            тайинланди Олтин Мортар халқарофармацевтикамукофоти. Кўп босқичли
+            тестлар самарадорлигини тасдиқлади ишлаб чиқиш, барча зарур
+            лицензиялар, сертификатлар олинган.
+          </p>
+          <div class="flex justify-center mt-[10px]">
+            <img src="./image/jp_sertifikat.png" alt="" />
+          </div>
+        </div>
+      </section>
+      <div></div>
+      <section class="md:mt-[50px] mt-[80px]">
+        <div
+          class="container wrapper flex items-center justify-center md:mt-[20px] mt-[40px] md:gap-[20px] gap-[40px]"
+        >
+          <div class="border-image md:w-[200px] max-w-[400px]">
+            <img class="" src="./image/jp_giperto.png" alt="dori" />
+          </div>
+          <!--?Form ----------------------------------------------------------------------------------------------  -->
+          <form
+            class="FormControl flex flex-col items-center justify-center bg-[#EEE] rounded-[15px] p-[10px] md:w-[200px]"
+          >
+            <h3
+              style="--i: 40px; --l: 600"
+              class="text-title-mid text-items text-center"
+            >
+              Faqat Bugun <br />
+              <span class="text-red-500 text-[30px] font-[800]"
+                >50% chegirma</span
+              >
+              <br />
+              <span class="text-green-500 font-[800]">33.000 UZS</span>
+            </h3>
+            <div class="flex gap-[2px] items-center">
+              <p class="soat md:text-[15px] bg-gray-700 p-2 text-white"></p>
+              :
+              <p class="minut md:text-[15px] bg-gray-700 p-2 text-white"></p>
+              :
+              <p class="sekunt md:text-[15px] bg-gray-700 p-2 text-white"></p>
+            </div>
+            <input
+              type="text"
+              class="md:w-[120px] p-[3px] rounded mt-[10px] text-[20px] outline-none"
+              placeholder="Ism"
+              required
+            />
+            <input
+              type="tel"
+              class="telefon md:w-[120px] p-[3px] rounded mt-[10px] text-[20px] outline-none"
+              placeholder="Telefon"
+              required
+            />
+            <button
+              class="mt-[10px] text-center font-[600] md:w-[120px] w-full transition-all duration-150 p-[5px] bg-[#f9000083] active:bg-[#F90000] text-white rounded-[10px]"
+            >
+              Qabul qilish uchun
+            </button>
+          </form>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div
+            class="wrapper-info flex flex-wrap items-center md:justify-between justify-center gap-[60px] md:gap-[10px] mt-[40px]"
+          >
+            <div
+              class="card-list bg-[#C7C7C7] flex items-center md:w-[200px] h-[184px] md:h-[77px] w-[500px] md:gap-[10px] gap-[15px] md:p-[10px] p-[20px] sm:w-full"
+            >
+              <img
+                class="md:w-[40px] w-[90px]"
+                src="./image/icon_1.png"
+                alt="icon"
+              />
+              <p style="--i: 32px; --l: 400" class="text-info text-white">
+                Қон томирларини тозалайди
+              </p>
+            </div>
+            <div
+              class="card-list bg-[#C7C7C7] flex items-center md:w-[200px] h-[184px] md:h-[77px] w-[500px] md:gap-[10px] gap-[15px] md:p-[10px] p-[20px] sm:w-full"
+            >
+              <img
+                class="md:w-[40px] w-[90px]"
+                src="./image/icon_2.png"
+                alt="icon"
+              />
+              <p style="--i: 32px; --l: 400" class="text-info text-white">
+                мутлақо хавфсиз биологик фаол қўшимча
+              </p>
+            </div>
+            <div
+              class="card-list bg-[#C7C7C7] flex items-center md:w-[200px] h-[184px] md:h-[77px] w-[500px] md:gap-[10px] gap-[15px] md:p-[10px] p-[20px] sm:w-full"
+            >
+              <img
+                class="md:w-[40px] w-[90px]"
+                src="./image/icon_3.png"
+                alt="icon"
+              />
+              <p style="--i: 32px; --l: 400" class="text-info text-white">
+                қон босимини барқарорлаштиришга ёрдам беради
+              </p>
+            </div>
+            <div
+              class="card-list bg-[#C7C7C7] flex items-center md:w-[200px] h-[184px] md:h-[77px] w-[500px] md:gap-[10px] gap-[15px] md:p-[10px] p-[20px] sm:w-full"
+            >
+              <img
+                class="md:w-[40px] w-[90px]"
+                src="./image/icon_4.png"
+                alt="icon"
+              />
+              <p style="--i: 32px; --l: 400" class="text-info text-white">
+                кучли терапевтик таъсирга ега
+              </p>
+            </div>
+            <div
+              class="card-list bg-[#C7C7C7] flex items-center md:w-[200px] h-[184px] md:h-[77px] w-[500px] md:gap-[10px] gap-[15px] md:p-[10px] p-[20px] sm:w-full"
+            >
+              <img
+                class="md:w-[40px] w-[90px]"
+                src="./image/icon_5.png"
+                alt="icon"
+              />
+              <p style="--i: 32px; --l: 400" class="text-info text-white">
+                юрак ҳуружидан ҳимоя
+              </p>
+            </div>
+            <div
+              class="card-list bg-[#C7C7C7] flex items-center md:w-[200px] h-[184px] md:h-[77px] w-[500px] md:gap-[10px] gap-[15px] md:p-[10px] p-[20px] sm:w-full"
+            >
+              <img
+                class="md:w-[40px] w-[90px]"
+                src="./image/icon_6.png"
+                alt="icon"
+              />
+              <p style="--i: 32px; --l: 400" class="text-info text-white">
+                юрак етишмовчилигида ёрдам беради
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="otvis mt-[40px]">
+        <div class="container">
+          <div class="card my-[20px] flex flex-col items-start">
+            <img
+              class="md:w-[50px] w-[90px]"
+              src="./image/avu1.png"
+              alt="avu"
+            />
+            <p style="--i: 40px; --l: 600" class="text-info mt-2">
+              Жуда қизиқарли экан. Гипертофорт га буюртма бердим.
+              <br />
+              <span class="font-[600] md:font-[700]"
+                >Madina Toshkent vil, Bekabod tum.</span
+              >
+            </p>
+          </div>
+          <div class="card my-[20px] flex flex-col items-start">
+            <img
+              class="md:w-[50px] w-[90px]"
+              src="./image/avu2.png"
+              alt="avu"
+            />
+            <p style="--i: 40px; --l: 600" class="text-info mt-2">
+              Буюртма бердим. Почта орқали етказиб беришлари қулай, мамлакатнинг
+              исталган бурчагига келтириб беришлари мумкин.
+              <br />
+              Robiya Sirdaryo vil, Sardoba tum.
+            </p>
+          </div>
+
+          <div class="card my-[20px] flex flex-col items-start">
+            <img
+              class="md:w-[50px] w-[90px]"
+              src="./image/avu11.png"
+              alt="avu"
+            />
+            <p style="--i: 40px; --l: 600" class="text-info mt-2">
+              Ушбу препарат билан юқори қон босимимни даволаганман. Юқори қон
+              босими узоқ вақтдан бери ҳаётимдаги шеригимга айланганди. Вақт
+              ўтиши билан унга қандли диабет ва буйрак муаммолари қўшилди.
+              Хотира ва кўриш жуда ёмон эди. Ҳаётим давомида ниманинг иложи
+              бўлса, ўша билан даволандим. Ҳеч нарса тайинли ёрдам бермади.
+              Гиперфорте ни синаб кўришга қарор қилдим. Биринчи марта интернет
+              орқали дори-дармонларни буюрган эдим, лекин ҳаммаси оддий бўлиб
+              чиқди.
+              <br />
+              Barchinoy .Nukus shaxar.
+            </p>
+          </div>
+          <div class="card my-[20px] flex flex-col items-start">
+            <img
+              class="md:w-[50px] w-[90px]"
+              src="./image/avu3.png"
+              alt="avu"
+            />
+            <p style="--i: 40px; --l: 600" class="text-info mt-2">
+              Мен "Гипертофорт" га буюртма берган уни синаб кўрганларданман. 7
+              йил давомида менда гипертония бор эди. Доимий равишда
+              таблеткалардан фоедаланиб келардим.Қон босимим нормал бўлганини
+              мен ҳатто эслай олмайман. Даволаган шифокорнинг маслаҳати билан
+              томирларни тозалашга қарор қилдим. "Гипертофорт" ни бир ой
+              давомида қабул қилгандан сўнг, қон босимим нормал ҳолатга қайтди!
+              Энди мен 2 ойдан бери гипертониясиз яшаяпман. Бу умуман бошқача
+              ҳаёт экан. Ўзимни анча яхши ҳис қила бошладим. Мен буажойиб
+              воситани, айниқса, бундай нархда ҳаммага тавсия қиламан.
+              <br />
+              Anvar .Toshkent shaxar, shayxontoxur tum.
+            </p>
+          </div>
+
+          <div class="card my-[20px] flex flex-col items-start">
+            <img
+              class="md:w-[50px] w-[90px]"
+              src="./image/avu4.png"
+              alt="avu"
+            />
+            <p style="--i: 40px; --l: 600" class="text-info mt-2">
+              Men buni kecha qabul qildim ota-onam uchun. Yaqinda korikdan
+              otkazdim. Ularda ortiqcha xolestrin va tomirlarida tromblar
+              yegilishi tufayli daxshatli xolatga kelibdi.
+              <br />Aziza Andijon vil . Paxtaobod tum
+            </p>
+          </div>
+
+          <div class="card my-[20px] flex flex-col items-start">
+            <img
+              class="md:w-[50px] w-[90px]"
+              src="./image/avu5.png"
+              alt="avu"
+            />
+            <p style="--i: 40px; --l: 600" class="text-info mt-2">
+              Juda qiziqarli ekan .Gipertafortega buyurtma berdim va kichik
+              aksiya ishtrokchisiga aylanib katta chegermaga ham ega boldim .
+              Rahmat !!!! <br />
+              Akbar Xojiona Qarshi shaxar.
+            </p>
+          </div>
+
+          <div class="card my-[20px] flex flex-col items-start">
+            <img
+              class="md:w-[50px] w-[90px]"
+              src="./image/avu6.png"
+              alt="avu"
+            />
+            <p style="--i: 40px; --l: 600" class="text-info mt-2">
+              Men bundan toliq kurs lichenya qabul qildim.Qon bosimim
+              vaqti-vaqti bilan kotarildi, ba’zida yurakning noteks ritmi bor
+              edi . Men uni taxminan 2-2 7xafta ichdim. Qon bosii kotarilshi
+              toxtadi. Ozimni butunlay soglom odamdek xis qilyapman. <br />
+              Nig'mat Toshkent shaxar . Yunusobod tum
+            </p>
+          </div>
+
+          <div class="card my-[20px] flex flex-col items-start">
+            <img
+              class="md:w-[50px] w-[90px]"
+              src="./image/avu8.png"
+              alt="avu"
+            />
+            <p style="--i: 40px; --l: 600" class="text-info mt-2">
+              Мен қон томирларимни тозалашда фойдаланган препаратни қўллаш
+              бўйича тажрибам билан бўлишмоқчиман. Бу маҳсулот ҳақиқатан ҳам
+              менга фойда берди! Мен энергиям ошганини ва қон босимим
+              барқарорлашганини ҳис қила бошладим. Мен ушбупрепаратни юрак-қон
+              томир касалликларидан азият чекувчи ҳар бир кишига тавсия қиламан
+              <br />
+              Анна Морозова Toshkent shaxar. MirzoUlugbek tum.
+            </p>
+          </div>
+
+          <div class="card my-[20px] flex flex-col items-start">
+            <img
+              class="md:w-[50px] w-[90px]"
+              src="./image/avu7.png"
+              alt="avu"
+            />
+            <p style="--i: 40px; --l: 600" class="text-info mt-2">
+              Мен қон томирларимни тозалаш учун дори-дармонларга бироз шубҳа
+              билан қарардим, лекин шифокор тавсиясига кўра бу препаратни синаб
+              кўришга қарор қилдим. Ва бундан афсусланмадим! Муолажанинг
+              бошидаёқ мен энергия оқимини ва умумий аҳволим яхшиланганини ҳис
+              қилдим. Ўшандан бери будорименинг кун тартибимнинг ажралмас
+              қисмига айланди.
+
+              <br />Begzod Xorazm vil Xiva tum
+            </p>
+          </div>
+
+          <div class="card my-[20px] flex flex-col items-start">
+            <img
+              class="md:w-[50px] w-[90px]"
+              src="./image/avu9.png"
+              alt="avu"
+            />
+            <p style="--i: 40px; --l: 600" class="text-info mt-2">
+              Раҳмат! Яқинда Первий каналда ушбу дори ҳақидаги дастурни кўрдим.
+              Унда препарат кўплаб шифокорлар томонидан мақталди. Шунингдек,
+              улар қонтомирларини тозалаш жуда муҳим эканлигини айтишди.
+              <br />
+              Gulmira Toshkent vilZangiota tum
+            </p>
+          </div>
+
+          <div class="card my-[20px] flex flex-col items-start">
+            <img
+              class="md:w-[50px] w-[90px]"
+              src="./image/avu10.png"
+              alt="avu"
+            />
+            <p style="--i: 40px; --l: 600" class="text-info mt-2">
+              Препарат жудазўр. Тўлиқтасдиқлайман! Қон босимим доим 140га 90
+              эди. Мен шу биланбирнечайиляшадим. Дорини қабул қилиш курсидан
+              кейин босим 125га 85 бўлди. Соғлиғим анча яхшиланди. <br />
+              Abdurashid Andijon shaxar
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+.text-title {
+  font-size: var(--i);
+  font-weight: var(--l);
+}
+
+.text-title-mid {
+  font-size: var(--i);
+  font-weight: var(--l);
+}
+
+.text-info {
+  font-size: var(--i);
+  font-weight: var(--l);
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media (max-width: 767px) {
+  .text-title {
+    font-size: calc(var(--i) / 3);
+    font-weight: calc(var(--l) / 1);
+  }
+  .text-info {
+    font-size: calc(var(--i) / 2.5);
+    font-weight: var(--l);
+  }
+
+  .text-title-mid {
+    font-size: calc(var(--i) / 2.5);
+    font-weight: var(--l);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .text-title {
+    font-size: calc(var(--i) / 2);
+    font-weight: calc(var(--l) / 1);
+  }
+  .text-info {
+    font-weight: var(--l);
+  }
+  .text-title-mid {
+    font-size: calc(var(--i) / 2);
+    font-weight: var(--l);
+  }
+}
+
+.charchagan {
+  background-image: url("../image/bg_charchagan.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.charchagan_2 {
+  background-image: url("../image/bg_2.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.charchagan_3 {
+  background-image: url("../image/bg_3.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
